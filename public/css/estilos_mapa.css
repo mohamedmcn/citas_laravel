@@ -1,0 +1,305 @@
+
+    div.mapa_imagen {
+        position: relative;
+       
+      }
+      .mapa_img{
+        width: 80%;
+        height: auto;
+        z-index: 1;
+        
+        
+      }
+              ul.notas li {
+        position: absolute;
+      }
+      ul.notas li {
+       /*border: medium solid #FFF;*/
+      
+        list-style: none;
+      }
+      
+      div.mapa_imagen:hover ul.notas li {
+        display: block;
+      }
+      ul.notas li p {
+      display: none;
+        position: absolute;
+        top: 100%;
+      
+        background: #FFF;
+        opacity: 0.65;
+      
+        margin: 10px 0 0 0;
+        padding: 0.3em;
+      }
+      ul.notas li#nota1 {
+          width: 4%; height: 10%; top: 25%; left: 40%;
+          
+        
+      }
+      ul.notas li#nota2 {
+        width: 4%; height: 10%; top: 0%; left: 50%;
+        font: 1em sans-serif;
+          
+      }
+      ul.notas li#nota3 {
+        width: 4%; height: 10%; top: 40%; left: 40%;
+      }
+      ul.notas li#nota4 {
+        width: 4%; height: 10%; top: 48%; left: 14%;
+      }
+      ul.notas li#nota5 {
+        width: 4%; height: 10%; top: 35%; left: 52%;
+          
+      }
+      ul.notas li#nota6 {
+        width: 4%; height: 10%; top: 48%; left: 68%;
+          
+      }
+      ul.notas li#nota7 {
+        width: 4%; height: 10%; top: 62%; left: 68%;
+          
+      }
+      
+      ul.notas li#nota8 {
+        width: 4%; height: 10%; top: 58%; left: 51%;
+          
+      }
+      ul.notas li#nota9 {
+        width: 4%; height: 10%; top: 58%; left: 31%;
+          
+      }
+      
+      ul.notas li#nota10 {
+        width: 4%; height: 10%; top: 75%; left: 66%;
+          
+      }
+      
+      ul.notas li#nota11 {
+        width: 4%; height: 10%; top: 78%; left: 45%;
+          
+      }
+      
+      ul.notas li#nota12 {
+        width: 4%; height: 10%; top: 67%; left: 42%;
+          
+      }
+      
+      ul.notas li#nota13{
+        width: 4%; height: 10%; top: 73%; left: 13%;
+          
+      }
+      ul.notas li#nota14{
+        width: 4%; height: 10%; top: 87%; left: 31%;
+          
+      }
+      
+      ul.notas li#nota15{
+        width: 4%; height: 10%; top: 90%; left: 57%;
+          
+      }
+      p{
+        font: 1em sans-serif;
+      }
+      #nota1:hover .not1  {
+          display: block;
+          position: absolute;
+        top: 0%;
+        left: 100%;
+      
+        background: #FFF;
+        opacity: 0.65;
+      
+        margin: 0 0 0 10px;
+      
+      }
+      #nota2:hover .not2  {
+          display: block;
+          position: absolute;
+        top: 100%;
+       width: 105px;
+      
+        background: #FFF;
+        opacity: 0.65;
+      
+        margin: 10px 0 0 0;
+      
+      }
+      #nota3:hover .not3  {
+          display: block;
+          position: absolute;
+       right: 100%;
+       top: 0%;
+       width: 105px;
+      width: 50px;
+        background: #FFF;
+        opacity: 0.65;
+      
+        margin: 0 10px 0 0;
+      
+      }
+      
+      #nota4:hover .not4  {
+          display: block;
+          position: absolute;
+        top: 0%;
+        left: 100%;
+      
+        background: #FFF;
+        opacity: 0.65;
+      
+        margin: 0 0 0 10px;
+      
+      }
+      #nota5:hover .not5  {
+          display: block;
+          position: absolute;
+        top: 0%;
+        left: 100%;
+      
+        background: #FFF;
+        opacity: 0.65;
+      
+        margin: 0 0 0 10px;
+      
+      }
+      #nota6:hover .not6  {
+          display: block;
+          position: absolute;
+        top: 0%;
+        left: 100%;
+      
+        background: #FFF;
+        opacity: 0.65;
+      
+        margin: 0 0 0 10px;
+      
+      }
+      #nota7:hover .not7  {
+          display: block;
+          position: absolute;
+        top: 0%;
+        left: 100%;
+      
+        background: #FFF;
+        opacity: 0.65;  
+      
+        margin: 0 0 0 10px;
+      
+      }
+      #nota8:hover .not8  {
+          display: block;
+          position: absolute;
+        top: 0%;
+        left: 100%;
+      
+        background: #FFF;
+        opacity: 0.65;
+      
+        margin: 0 0 0 10px;
+      
+      }
+      #nota9:hover .not9  {
+          display: block;
+          position: absolute;
+        top: 0%;
+        left: 100%;
+      
+        background: #FFF;
+        opacity: 0.65;
+      
+        margin: 0 0 0 10px;
+      
+      }
+      #nota10:hover .not10  {
+          display: block;
+          position: absolute;
+        top: 0%;
+        left: 100%;
+      
+        background: #FFF;
+        opacity: 0.65;
+      
+        margin: 0 0 0 10px;
+      
+      }
+      
+      #nota11:hover .not11  {
+          display: block;
+          position: absolute;
+        top: 0%;
+        left: 100%;
+      
+        background: #FFF;
+        opacity: 0.65;
+      
+        margin: 0 0 0 10px;
+      
+      }
+      
+      
+      #nota12:hover .not12  {
+          display: block;
+          position: absolute;
+        top: 0%;
+        left: 100%;
+      
+        background: #FFF;
+        opacity: 0.65;
+      
+        margin: 0 0 0 10px;
+      
+      }
+      
+      
+      #nota13:hover .not13  {
+          display: block;
+          position: absolute;
+        top: 0%;
+        left: 100%;
+      
+        background: #FFF;
+        opacity: 0.65;
+      
+        margin: 0 0 0 10px;
+      
+      }
+      
+      #nota14:hover .not14  {
+          display: block;
+          position: absolute;
+        top: 0%;
+        left: 100%;
+      
+        background: #FFF;
+        opacity: 0.65;
+      
+        margin: 0 0 0 10px;
+      
+      }
+      .texto{
+        
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 18px; 
+      font-weight: 400; 
+      color: #ffffff; 
+      background:#ee0467 ;
+      margin-bottom: 20px;
+      
+      }
+      #nota15:hover .not15    {
+          display: block;
+          position: absolute;
+        top: 0%;
+        left: 100%;
+      
+        background: #FFF;
+        opacity: 0.65;
+      
+        margin: 0 0 0 10px;
+      
+      }
+      
+      
+      

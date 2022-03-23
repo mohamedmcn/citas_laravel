@@ -1,0 +1,216 @@
+/*Elemento comunes*/
+body {
+  margin: 0px;
+  width: 100%;
+  padding: 0px;
+}
+p {
+  font-size: 1.2rem;
+  line-height: 3.2rem;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
+main {
+  background-image: url("../Imagenes/FondoMain.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+main *:first-of-type {
+  margin-top: 0%;
+}
+main *:last-of-type {
+  margin-bottom: 0%;
+}
+.contenido {
+  padding-top: 40px;
+  background-color: #d88b26;
+  width: 70%;
+  margin: 0px auto;
+  padding-bottom: 40px;
+}
+/*cabecera*/
+header {
+  width: 100%;
+  border-bottom: solid 6px;
+  border-image: linear-gradient(to right, #eeac4a 0%, #d5853ac2 100%) 2;
+  position: sticky;
+  top: 0%;
+  background-image: url("../Imagenes/FondoHeader.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 2;
+}
+#logo {
+  display: inline-flex;
+  align-items: center;
+}
+#MenuNAV {
+  text-align: center;
+  background-color: #d88b26;
+  overflow: hidden;
+}
+#MenuNAV li:hover {
+  background-color: #f85e04;
+}
+#MenuNAV a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+#MenuNAV li:active {
+  background-color: black;
+}
+#MenuNAV a:active {
+  color: orange;
+}
+#MenuNAV ul {
+  width: 100%;
+  padding: 0;
+  display: inline-block;
+  justify-content: center;
+  list-style-type: none;
+}
+.contenido_citas {
+  padding-top: 40px;
+  background-color: #d88b26;
+  width: 80%;
+  margin: 0px auto;
+  padding-bottom: 40px;
+}
+.TituloLogo {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  color: bisque;
+}
+/*pie de pagina */
+footer {
+  background-color: orange ;
+  padding-top: 40px;
+  min-height: 200px;
+  width: 100%;
+  margin: 0px auto;
+  text-align: center;
+}
+footer *:first-of-type {
+  margin-top: 0%;
+}
+
+/*Icono de redes*/
+.redes,.botones {
+  padding-top: 50px;
+}
+.redes a,.botones button {
+  display: inline-flex;
+  color: #ffffff;
+  height: 48px;
+  width: 48px;
+  background-color: #000000;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 0 6px;
+  transition: transform 0.4s;
+}
+.redes a:hover {
+  transform: scale(1.3);
+}
+.redes a.facebook {
+  background-color: #3c70a4;
+}
+.redes a.twitter {
+  background-color: #5bd1d7;
+}
+.redes a.google {
+  background-color: #ee4540;
+}
+.redes a.youtube {
+  background-color: #c72c41;
+}
+.redes a.instagram {
+  background-color: #bb7171;
+}
+/*media queris */
+@media screen and (max-width: 767px) {
+  #MenuNAV ul {
+    width: 100%;
+    padding: 0;
+    display: block;
+    justify-content: center;
+    list-style-type: none;
+  }
+  .MenuNAV li {
+    display: block;
+    border: 2px #d88b26 outset;
+    padding: 5px;
+    min-width: 80px;
+    text-align: center;
+    background-color: #d88b26;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  p {
+    font-size: 2rem;
+    line-height: 2.2rem;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .MenuNAV li {
+    display: inline;
+    border: 2px #d88b26 outset;
+    padding: 5px;
+    min-width: 80px;
+    text-align: center;
+    background-color: #d88b26;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  p {
+    font-size: 2rem;
+    line-height: 2.2rem;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .MenuNAV li {
+    display: inline;
+    border: 2px #d88b26 outset;
+    padding: 5px;
+    min-width: 150px;
+    text-align: center;
+    background-color: #d88b26;
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+  p {
+    font-size: 2rem;
+    line-height: 2.2rem;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .MenuNAV li {
+    display: inline;
+    border: 2px #d88b26 outset;
+    padding: 5px;
+    min-width: 150px;
+    max-width: 190px;
+    text-align: center;
+    background-color: #d88b26;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+  p {
+    font-size: 2rem;
+    line-height: 2.2rem;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+}

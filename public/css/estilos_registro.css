@@ -1,0 +1,94 @@
+.libro {
+    float: left;
+
+width: 525px;
+height: 400px;
+background: url('../Imagenes/Book Spritesheet.png') left center;
+margin: 0 auto;
+
+animation-name: libro;
+animation: libro 1s steps(12, end) infinite;
+}
+.retroceso{
+color: aliceblue;
+}
+@keyframes libro {
+from {
+background-position: 0px;
+background-position-y: 0px;
+}
+
+to {
+background-position: -6300px;
+background-position-y: 0px;
+}
+
+}
+form{
+width: 40%;
+margin-left: auto;
+margin-right: auto;
+padding-top: 10%;
+float: right;
+margin-right: 30%;
+
+}
+
+form input{
+border-radius:10px ;
+background-color: white;
+
+
+}
+fieldset{
+
+border-radius: 10px;
+margin-bottom: 10px;
+font-weight: bold;
+color: white;
+
+}
+
+
+.enviar{
+background-color:rgba(0,0,0,0) !important;
+color: white;
+}
+
+
+button{
+
+display: block;
+margin-left: auto;
+margin-right: auto
+}
+#tipomiembro,#cuota {
+color: white;
+font-weight: bold;
+
+}
+
+input,select{
+margin-bottom: 10px;
+background-color:rgba(0,0,0,0) !important;
+border-bottom: 2px solid white;
+border:none ;
+border-bottom: 2px solid white;
+color: white;
+font-weight: bold;
+}
+option{
+color: black;
+}
+label{
+margin-right: 50px;
+display: inline-block;
+width: 150px;
+color: white;
+font-weight: bold;
+
+}
+input.transparent-input{
+background-color:rgba(0,0,0,0) !important;
+border:none !important;
+}
